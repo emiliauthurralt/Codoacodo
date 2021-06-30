@@ -1,0 +1,157 @@
+/*HEADER*/
+header{
+    height: 700px;
+    background-image: url("http://cursophp.foxit.com.ar/comision2114/Emilia_Uthurralt/Imagenes/header.jpg");
+    background-size: cover;
+    color: white;
+    margin: 0px 0px -10px 0px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    color:white;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+header h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    margin: 5px;
+}
+header h2{
+    white-space: pre-line;
+    line-height: 50px;
+}
+
+/*SECTION INFO*/
+#info{
+    display: flex;
+    flex-direction: column;
+}
+#info h3{
+    text-align: center;
+    margin-top: 30px;
+    color: #666666;
+    font-weight: lighter;
+}
+#nosotros{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 260px 0px 260px;
+}
+.light{
+    color: #666666;
+    font-weight: lighter;
+}
+.container{
+
+    margin: 5px 10px 5px 10px;
+    text-align: center;
+    padding: 10px;
+}
+.container img{
+    height: 80px;
+    margin: 20px;
+}
+
+#cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 5px 10px 5px 10px;
+}
+.boton{
+    background-color: #FF9800;
+    color:white;
+    font-weight: 700;
+    max-width: 200px;
+}
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+.precio{
+    color:#4CAF50;
+    font-weight: 700;
+}
+.caract{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: space-around;
+    padding: 0px 10px;
+}
+.caract img{
+    height: 30px;
+}
+.verde{
+    color: white;
+    background-color: yellowgreen;
+    font-weight: 700;
+}
+.right{
+    text-align: right;
+    margin: 10px 260px 10px 10px;
+}
+#contacto{
+    height: 300px;
+    background-image: url('http://cursophp.foxit.com.ar/comision2114/Emilia_Uthurralt/Imagenes/encuentra.jpg');
+    background-size: cover;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: space-around;
+    padding: 50px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    color: white;
+    font-size: 15px;
+    align-items: flex-end;
+    height: 40px;
+}
+footer div{
+    margin: 10px;
+}
+
+@media only screen and (max-width: 425px) {
+    header{
+        width: 100vw;
+        height: fit-content;
+        background-size: 500px;
+        margin: 0px;
+        padding: 10px;
+        background-color: #4CAF50;
+    }
+    header div{
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+    header h1{
+        font-size: 40px;
+    }
+    #nosotros{
+        display: block;
+        margin: 0px -10px 0px -10px;
+        padding: 30px;
+    }
+}
